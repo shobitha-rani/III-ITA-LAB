@@ -1,0 +1,15 @@
+h1{
+    color:rgb(240, 176, 81);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    color:beige;
+    margin-right: 50pt;
+    margin-left: 50pt;
+    text-shadow: 2px 2px 5px rgb(14, 1, 1);
+}
