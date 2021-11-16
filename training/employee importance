@@ -1,0 +1,11 @@
+class Solution:
+    def getImportance(self, employees: List['Employee'], id: int) -> int:
+        employees = {e.id: e for e in employees}
+        stack = [employees[id]]
+        res = 0
+        while stack:
+            e = stack.pop()
+            res += e.importance
+            for esub in e.subordinates:
+                stack.append(employees[esub])
+        return res
