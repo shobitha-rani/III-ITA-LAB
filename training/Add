@@ -1,0 +1,7 @@
+class Solution(object):
+   def addToArrayForm(self, A, K):
+      num_A = int(''.join(str(i) for i in A))
+      res = list(str(num_A+K))
+      res = list(map(int,res))
+      return res
+ob1 = Solution()
